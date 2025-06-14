@@ -16,7 +16,7 @@ export const StockMarket = () => {
     },
     {
       icons: icon3,
-      p: "Real - time Financial Analytics",
+      p: "Real - Time Financial Analytics",
     },
   ];
   return (

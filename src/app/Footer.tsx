@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="flex justify-evenly flex-wrap gap-5 text-[#1F614C]">
           <div className="md:w-[40%] w-full text-justify space-y-2">
             <h3 className="text-lg font-semibold">About Us</h3>
-            <p className="text-[16px] leading-7">
+            <p className="text-[16px] leading-7 max-w-[400px]">
               HR360 is a thinking company on a mission to
               connect people and businesses with meaningful innovation.
             </p>
@@ -45,21 +45,21 @@ export const Footer = () => {
           </div>
         </div>
         <div className="flex gap-5 py-3 max-md:justify-center">
-          <span className="w-10 h-10 text-[#d3cdcde3] bg-white rounded-full center">
+          <span className="w-10 h-10 text-[#b1ababe3] bg-white rounded-full center">
             <FaTwitter />
           </span>
-          <span className="w-10 h-10 text-[#d3cdcde3] bg-white rounded-full center">
+          <span className="w-10 h-10 text-[#b1ababe3] bg-white rounded-full center">
             <FaFacebookF />
           </span>
-          <span className="w-10 h-10 text-[#d3cdcde3] bg-white rounded-full center">
+          <span className="w-10 h-10 text-[#b1ababe3] bg-white rounded-full center">
             <FaInstagram />
           </span>
-          <span className="w-10 h-10 text-[#d3cdcde3] bg-white rounded-full center">
+          <span className="w-10 h-10 text-[#b1ababe3] bg-white rounded-full center">
             <FaLinkedinIn />
           </span>
         </div>
         <p className="text-center text-[#1F614C] font-normal pt-2">
-          Copyright 2025. HR360. All Rights Reserved
+          Copyright © 2025 by HR360. All rights reserved.
         </p>
       </div>
     </section>

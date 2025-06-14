@@ -11,27 +11,27 @@ export const Service = () => {
     {
       pic: pic1,
       title: "Leave  Management",
-      desc: "The HR Management Dashboard is a streamlined, user-friendly platform designed to optimize your hiring and HR processes. It provides real-time insights into recruitment pipelines, tracks key hiring metrics, and simplifies applicant management. It’s the ultimate solution for staying competitive and building your dream team effortlessly.",
+      desc: "Leave management is the streamlined process of handling employee leave, permissions and attendance. It allows employees to easily apply for leave or short permissions, view their balances instantly, and receive timely approvals. With real-time tracking, automated calculations, and policy compliance, it ensures accuracy, reduces manual errors, and helps managers plan better with shared calendars and insights.",
     },
     {
       pic: pic2,
       title: "Time and Attendance",
-      desc: "The Time Management & Attendance Dashboard offers real-time tracking to keep you in sync with your workforce. It simplifies shift scheduling, handles emergency changes effortlessly, and ensures employees adhere to scheduled breaks.",
+      desc: "Clock-in/out tracking through biometric systems ensures accurate and tamper-proof recording of employee work hours using fingerprint or facial recognition. These systems automatically calculate total working hours, including overtime, breaks, and absences, providing reliable attendance data and minimizing manual errors for efficient workforce management.",
     },
     {
       pic: pic3,
       title: "Employee Module",
-      desc: "The Employee Portal centralizes your entire organizational structure and HR processes into a user-friendly platform tailored for employees. It enables easy access to personal records, organizational charts, and compliance tools, fostering transparency and engagement. This portal streamlines efficiency and ensures seamless alignment across all HR touchpoints for employees.",
+      desc: "An employee management system centralizes essential HR functions by maintaining detailed employee profiles that include personal information, job roles, and employment dates. It streamlines document and compliance management by enabling the upload and tracking of critical documents such as resumes, contracts, identity proofs, certifications, and their expiration dates. Additionally, it supports performance and goal management through regular performance reviews and the monitoring of training and development progress.",
     },
     {
       pic: pic4,
       title: "Internship",
-      desc: "The Payroll Management Dashboard simplifies and automates your payroll processes, saving time and ensuring accuracy. It offers real-time tracking of employee payments, tax calculations, and compliance updates, all in one place. It’s the easiest way to streamline payroll operations and focus on growing your workforce.",
+      desc: "Enroll through the website by submitting your interest using a simple online form—no paperwork required, just a few clicks to begin your journey. After enrollment, complete the registration process by filling in your profile details and uploading necessary documents such as your resume and cover letter for verification and approval. Once registered, tasks and project goals will be assigned by your mentor or supervisor based on your learning objectives. You can track your intern status in real-time through your dashboard, where you can monitor assignment progress, receive performance feedback, and view completion status.",
     },
     {
       pic: pic5,
       title: "Timesheet",
-      desc: "The Performance Management Dashboard brings clarity and focus to employee growth by aligning individual goals with overall business objectives. It provides tools for setting clear targets, tracking progress, and conducting insightful performance reviews. This dashboard ensures a transparent, goal-driven approach to unlocking employee potential and driving organizational success.",
+      desc: "Allocate hours to specific projects or tasks to gain clear visibility into labor distribution and ensure effective cost control. Employees can record clock-in/out times or manually enter start and end times to accurately log their daily work hours. Additionally, the system captures break durations and overtime, enabling comprehensive tracking of work patterns and ensuring compliance with labor regulations.",
     },
     {
       pic: pic6,
@@ -82,3 +82,5 @@ export const Service = () => {
     </section>
   );
 };
+
+

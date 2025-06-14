@@ -73,19 +73,19 @@ export const Enquire = () => {
               width={100}
             />
 
-            <div className="p-3 border border-[#C4FEF3]">
+            <div className="p-3 border border-[#b3faed]">
               <input
-                className="placeholder:text-[#ddd8d8e3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none"
                 type="text"
-                placeholder="FirstName"
+                placeholder="Full Name"
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#C4FEF3]">
+            <div className="p-3 border border-[#b3faed]">
               <input
-                className="placeholder:text-[#ddd8d8e3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none"
                 type="text"
                 placeholder="Email Address"
                 name="email"
@@ -93,9 +93,9 @@ export const Enquire = () => {
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#C4FEF3]">
+            <div className="p-3 border border-[#b3faed]">
               <input
-                className="placeholder:text-[#ddd8d8e3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none"
                 type="text"
                 placeholder="Mobile No"
                 name="phoneNo"
@@ -103,9 +103,9 @@ export const Enquire = () => {
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#C4FEF3]">
+            <div className="p-3 border border-[#b3faed]">
               <textarea
-                className="resize-none placeholder:text-[#ddd8d8e3] outline-none"
+                className="resize-none placeholder:text-[#acaaaae3] outline-none"
                 placeholder="Message"
                 name="msg"
                 value={formData.msg}
@@ -118,7 +118,7 @@ export const Enquire = () => {
                 onClick={onSubmit}
                   disabled={isSubmitting}
               >
-                  {isSubmitting ? "Sending..." : " Send Enquire"}
+                  {isSubmitting ? "Sending..." : " Send Enquiry"}
                
               </button>
             </div>

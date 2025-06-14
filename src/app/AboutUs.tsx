@@ -41,7 +41,7 @@ export const AboutUs = () => {
                 your ideas and their potential, turning challenges into triumphs
                 with creativity, trust, and a relentless commitment to
                 excellence. Let’s make your next breakthrough our shared
-                success!"
+                success.
               </p>
             </article>
           </div>
