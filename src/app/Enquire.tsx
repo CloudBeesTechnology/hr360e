@@ -54,7 +54,7 @@ export const Enquire = () => {
     <section id="contact" className="center px-3 md:px-10 my-5 md:my-20">
       <div className="max-w-screen-2xl w-full">
         <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">
-          Enquire
+          Enquiry
         </h2>
         {status && <p className="text-center text-green-600">{status}</p>}
         <div className="center ">

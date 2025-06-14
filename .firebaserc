@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "cloudbees-techies-d1ed4"
+  },
+  "targets": {
+    "cloudbees-techies-d1ed4": {
+      "hosting": {
+        "hr360e": [
+          "hr360e"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
