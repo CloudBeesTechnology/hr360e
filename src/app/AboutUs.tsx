@@ -6,7 +6,7 @@ export const AboutUs = () => {
   return (
     <section id="about" className="center px-3 lg:px-10 my-5 md:my-20">
       <div className="max-w-screen-2xl w-full">
-        <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">AboutUs</h2>
+        <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">About Us</h2>
         <div>
           <div className="flex flex-wrap max-lg:justify-center lg:gap-10 gap-2 w-full max-w-screen-2xl">
             <article className="lg:w-[75%] space-y-5 mt-5 md:mt-10">
