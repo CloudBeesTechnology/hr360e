@@ -48,10 +48,13 @@ export const Service = () => {
         return (
           <div
             key={idx}
-            className="flex gap-10 flex-wrap justify-center w-full max-w-screen-2xl"
+            className="w-full max-w-screen-2xl"
           >
+            <div className={`flex  flex-wrap justify-center  gap-10 ${idx % 2 == 0  ? "max-lg:flex-col-reverse" : ""}`}>
+              
             {idx % 2 === 0 && (
-              <div className="xl:flex-1 flex xl:justify-start">
+              <div className={`xl:flex-1 flex justify-center xl:justify-start`}>
+                {/* ${idx % 2 == 0  ? "max-lg:flex-row-reverse" : ""} */}
                 <Image
                   src={item.pic}
                   alt={`${item.title} not found`}
@@ -59,7 +62,7 @@ export const Service = () => {
                 />
               </div>
             )}
-            <article className="md:w-[75%] space-y-5">
+            <article className="lg:w-[75%] w-full space-y-5">
               <h2 className="text-[#1B8036] font-bold text-[1.5rem]">
                 {item.title}
               </h2>
@@ -68,7 +71,7 @@ export const Service = () => {
               </p>
             </article>
             {idx % 2 !== 0 && (
-              <div className="xl:flex-1 flex xl:justify-end">
+              <div className={`xl:flex-1 flex xl:justify-end `}>
                 <Image
                   src={item.pic}
                   alt={`${item.title} not found`}
@@ -76,6 +79,7 @@ export const Service = () => {
                 />
               </div>
             )}
+            </div>
           </div>
         );
       })}

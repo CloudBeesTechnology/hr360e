@@ -6,29 +6,43 @@ export const AboutUs = () => {
   return (
     <section id="about" className="center px-3 lg:px-10 my-5 md:my-20">
       <div className="max-w-screen-2xl w-full">
-        <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">AboutUs</h2>
+        <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">
+          About Us
+        </h2>
         <div>
           <div className="flex flex-wrap max-lg:justify-center lg:gap-10 gap-2 w-full max-w-screen-2xl">
             <article className="lg:w-[75%] space-y-5 mt-5 md:mt-10">
-              <h2 className="text-[#1B8036] font-bold text-[1.5rem]">
+              {/* <h2 className="text-[#1B8036] font-bold text-[1.5rem]">
                 We are INKO HCM
-              </h2>
+              </h2> */}
               <p className="text-[#1B1B1B] max-md:text-justify font-normal text-[16px] leading-7">
-                We aim to empower organizations with cutting-edge technology and
-                automation, enabling a new kind of growth. A growth where
-                employees thrive doing what they love, and managers focus on
-                leading and driving success. By eliminating outdated HR tasks,
-                we free teams to innovate, excel, and inspire. Our mission is to
-                let the human factor shine and chieve greatness.
+                HR360 is a comprehensive HR management software developed by
+                *CloudBees Tech*, designed to streamline and digitize all core
+                HR functions. By automating routine tasks and calculations,
+                HR360 significantly reduces manual effort and human error. From
+                attendance tracking and leave management to performance reviews
+                and payroll support, every process is handled digitally—saving
+                time, improving accuracy, and boosting overall
+                efficiency for HR teams.
               </p>
             </article>
             <div className="flex-1 flex max-lg:justify-center min-w-[200px]">
-              <Image src={computer} alt="computer not found" width={400} className="max-lg:w-[250px]" />
+              <Image
+                src={computer}
+                alt="computer not found"
+                width={400}
+                className="max-lg:w-[250px]"
+              />
             </div>
           </div>
-          <div className="flex flex-wrap max-lg:justify-center gap-2 lg:gap-10 w-full max-w-screen-2xl">
+          <div className="flex flex-wrap max-lg:justify-center gap-2 lg:gap-10 w-full max-w-screen-2xl max-lg:flex-col-reverse">
             <div className="flex-1 flex max-lg:justify-center min-w-[200px]">
-              <Image src={goal} alt="goal not found" width={400} className="max-lg:w-[250px]" />
+              <Image
+                src={goal}
+                alt="goal not found"
+                width={400}
+                className="max-lg:w-[250px]"
+              />
             </div>
 
             <article className="lg:w-[75%] space-y-5 mt-10">
@@ -36,12 +50,11 @@ export const AboutUs = () => {
                 Our Vision
               </h2>
               <p className="text-[#1B1B1B] max-md:text-justify font-normal text-[16px] leading-7">
-                Our mission is to deliver top-notch software solutions that
-                spark innovation and drive success. We’re the bridge between
-                your ideas and their potential, turning challenges into triumphs
-                with creativity, trust, and a relentless commitment to
-                excellence. Let’s make your next breakthrough our shared
-                success.
+                To revolutionize human resource management by delivering a
+                smart, fully digital platform that simplifies processes, reduces
+                manual effort, and empowers organizations to focus on people,
+                not paperwork. Through HR360, we envision a future where HR
+                operations are seamless, efficient, and strategically impactful.
               </p>
             </article>
           </div>
