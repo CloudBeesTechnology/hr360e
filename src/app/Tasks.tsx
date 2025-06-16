@@ -7,23 +7,61 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
   {
-    title: "Truly adaptable, Not complex?",
+    title: "Is HR360 customizable??",
     content: [
-      "Our HR360 system is intuitive, ensuring you adapt quickly without lengthy training.",
+      "Yes, HR360 can be fully customized to meet your organization’s HR policies, workflows, and reporting needs.",
     ],
   },
   {
-    title: "Real-time tracking, real-time results?",
+    title: "How does the backend of HR360 work?",
     content: [
-      "Track your team’s progress and priorities in real-time for faster decisions.",
-      "Track your team’s progress and priorities in real-time for faster decisions.",
-      "Track your team’s progress and priorities in real-time for faster decisions.",
+      "HR360 is built using secure, scalable technologies with cloud-based architecture, enabling smooth integration, performance, and real-time data sync.",
     ],
   },
   {
-    title: "Secure, scalable, smart?",
+    title: "What about the safety and security of HR360?",
     content: [
-      "Built with enterprise-grade security and scalability to grow with your business.",
+      "HR360 uses encrypted data transmission, role-based access control, and regular security audits to ensure data privacy and protection.",
+    ],
+  },
+  {
+    title: "What about the safety and security of HR360?",
+    content: [
+      "HR360 uses encrypted data transmission, role-based access control, and regular security audits to ensure data privacy and protection.",
+    ],
+  },
+  {
+    title: "Does HR360 support both desktop and mobile?",
+    content: [
+      "Yes, HR360 is fully responsive and works seamlessly on both desktop and mobile devices for user convenience.",
+    ],
+  },
+  {
+    title: "Do I get notifications for updates or approvals?",
+    content: [
+      "Yes, notifications are sent for leave requests, approvals, document uploads, and assigned tasks.",
+    ],
+  },
+  {
+    title: "Who do I contact for HRMS support?",
+    content: ["You can mail to hr@cloudbeestech.com"],
+  },
+  {
+    title: "Can I check my leave balance and history?",
+    content: [
+      "Yes, your dashboard displays all leave balances, previous requests, and approval statuses.",
+    ],
+  },
+  {
+    title: "Does HR360 support multiple user roles?",
+    content: [
+      "Absolutely. HR360 offers role-based access for admins, HR personnel, managers, and employees, ensuring secure and controlled access to features.",
+    ],
+  },
+  {
+    title: "Is there an option to generate reports in HR360?",
+    content: [
+      "Yes, HR360 includes customizable reporting tools to generate reports on attendance, leave, payroll, performance, and more.",
     ],
   },
 ];
@@ -40,8 +78,8 @@ export const Tasks = () => {
           Working off-hours to wrap up high-priority tasks?
         </h2>
         <div className="flex flex-wrap lg:gap-10 w-full max-w-screen-2xl">
-          <div className="md:w-[40%] flex justify-end">
-            <Image src={system} alt="system not found" width={400} />
+          <div className="md:w-[40%] flex justify-end items-center h-full mt-10">
+            <Image src={system} alt="system not found" width={400}/>
           </div>
 
           <div className="flex-1 space-y-3 md:mt-10 text-[#1B1B1B] font-normal text-[16px] leading-7">
