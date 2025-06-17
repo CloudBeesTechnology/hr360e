@@ -110,7 +110,7 @@ export const Navbar = () => {
               Careers
             </a>
           </div>
-          <div className="max-lg:block hidden">
+          <div className="max-lg:block hidden cursor-pointer text-xl">
             {showMenu ? (
               <p onClick={handleMenu}>
                 <RiMenuUnfold2Line />
@@ -140,7 +140,7 @@ export const Navbar = () => {
       </div>
       {showMenu && (
         <div className="bg-white h-screen py-5 px-3 fixed right-0 top-0 z-[999] shadow-md max-lg:block hidden">
-          <p onClick={handleMenu} className=" text-xl">
+          <p onClick={handleMenu} className=" text-xl cursor-pointer">
             {" "}
             <FaRegWindowClose />
           </p>

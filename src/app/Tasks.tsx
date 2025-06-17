@@ -7,33 +7,27 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
   {
-    title: "Is HR360 customizable??",
+    title: "Is HR360e customizable??",
     content: [
-      "Yes, HR360 can be fully customized to meet your organization’s HR policies, workflows, and reporting needs.",
+      "Yes, HR360e can be fully customized to meet your organization’s HR policies, workflows, and reporting needs.",
     ],
   },
   {
-    title: "How does the backend of HR360 work?",
+    title: "How does the backend of HR360e work?",
     content: [
-      "HR360 is built using secure, scalable technologies with cloud-based architecture, enabling smooth integration, performance, and real-time data sync.",
+      "HR360e is built using secure, scalable technologies with cloud-based architecture, enabling smooth integration, performance, and real-time data sync.",
     ],
   },
   {
-    title: "What about the safety and security of HR360?",
+    title: "What about the safety and security of HR360e?",
     content: [
-      "HR360 uses encrypted data transmission, role-based access control, and regular security audits to ensure data privacy and protection.",
+      "HR360e uses encrypted data transmission, role-based access control, and regular security audits to ensure data privacy and protection.",
     ],
   },
   {
-    title: "What about the safety and security of HR360?",
+    title: "Does HR360e support both desktop and mobile?",
     content: [
-      "HR360 uses encrypted data transmission, role-based access control, and regular security audits to ensure data privacy and protection.",
-    ],
-  },
-  {
-    title: "Does HR360 support both desktop and mobile?",
-    content: [
-      "Yes, HR360 is fully responsive and works seamlessly on both desktop and mobile devices for user convenience.",
+      "Yes, HR360e is fully responsive and works seamlessly on both desktop and mobile devices for user convenience.",
     ],
   },
   {
@@ -53,18 +47,19 @@ const faqs = [
     ],
   },
   {
-    title: "Does HR360 support multiple user roles?",
+    title: "Does HR360e support multiple user roles?",
     content: [
-      "Absolutely. HR360 offers role-based access for admins, HR personnel, managers, and employees, ensuring secure and controlled access to features.",
+      "Absolutely. HR360e offers role-based access for admins, HR personnel, managers, and employees, ensuring secure and controlled access to features.",
     ],
   },
   {
-    title: "Is there an option to generate reports in HR360?",
+    title: "Is there an option to generate reports in HR360e?",
     content: [
-      "Yes, HR360 includes customizable reporting tools to generate reports on attendance, leave, payroll, performance, and more.",
+      "Yes, HR360e includes customizable reporting tools to generate reports on attendance, leave, payroll, performance, and more.",
     ],
   },
 ];
+
 export const Tasks = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0); // open 1st by default
 
@@ -79,7 +74,7 @@ export const Tasks = () => {
         </h2>
         <div className="flex flex-wrap lg:gap-10 w-full max-w-screen-2xl">
           <div className="md:w-[40%] flex justify-end items-center h-full mt-10">
-            <Image src={system} alt="system not found" width={400}/>
+            <Image src={system} alt="system not found" width={500}/>
           </div>
 
           <div className="flex-1 space-y-3 md:mt-10 text-[#1B1B1B] font-normal text-[16px] leading-7">

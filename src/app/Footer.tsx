@@ -12,8 +12,8 @@ export const Footer = () => {
           <div className="md:w-[40%] w-full text-justify space-y-2">
             <h3 className="text-lg font-semibold">About Us</h3>
             <p className="text-[16px] leading-7 max-w-[400px]">
-              HR360 is a thinking company on a mission to
-              connect people and businesses with meaningful innovation.
+              HR360e is a thinking company on a mission to connect people and
+              businesses with meaningful innovation.
             </p>
           </div>
           <div className="flex-1 space-y-2">
@@ -37,10 +37,21 @@ export const Footer = () => {
           <div className="flex-1 space-y-2">
             <h3 className="text-lg font-semibold">Quicklinks</h3>
             <ul className="text-[16px] space-y-2">
-              <li>Careers</li>
-              <li>Recruitment & Onboarding</li>
-              <li>Contact</li>
-           
+              <li>
+                <a href="/#career" className="hover:underline">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="/#service" className="hover:underline">
+                  Recruitment & Onboarding
+                </a>
+              </li>
+              <li>
+                <a href="/#contact" className="hover:underline">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -59,7 +70,7 @@ export const Footer = () => {
           </span>
         </div>
         <p className="text-center text-[#1F614C] font-normal pt-2">
-          Copyright © 2025 by HR360. All rights reserved.
+          Copyright © 2025 by HR360e. All rights reserved.
         </p>
       </div>
     </section>

@@ -3,7 +3,7 @@ import mobile from "../../public/assest/hr360e/mobile.png";
 
 export const Careers = () => {
   return (
-    <section id="career" className="center px-3 md:px-10 md:my-20 my-5">
+    <section id="career" className="center px-3 md:px-10 md:my-20 my-5 scroll-mt-24 sm:scroll-mt-36">
       <div className="max-w-screen-2xl w-full">
         <div className="flex flex-wrap gap-3 lg:gap-10 w-full max-w-screen-2xl">
           <article className="md:w-[75%] space-y-5 mt-10">
