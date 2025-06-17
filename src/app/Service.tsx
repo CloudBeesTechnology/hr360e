@@ -42,7 +42,7 @@ export const Service = () => {
   return (
     <section
       id="service"
-      className="md:my-20 my-8 px-3 md:px-10 flex items-center flex-col gap-7 md:gap-20"
+      className="md:my-20 my-8 px-3 md:px-10 flex items-center flex-col gap-7 md:gap-20 scroll-mt-32 sm:scroll-mt-36"
     >
       {serviceList.map((item, idx) => {
         return (

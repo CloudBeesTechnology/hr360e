@@ -13,7 +13,7 @@ export const Enquire = () => {
     phoneNo: "",
     msg: "",
   });
-  const [status, setStatus] = useState<string>("");
+  const [status, setStatus] = useState<string | null>(null)
   const [isSubmitting, setIsSubmitting] = useState(false);
   const handleData = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -51,7 +51,7 @@ export const Enquire = () => {
       });
   };
   return (
-    <section id="contact" className="center px-3 md:px-10 my-5 md:my-20">
+    <section id="contact" className="center px-3 md:px-10 my-5 md:my-20 scroll-mt-32">
       <div className="max-w-screen-2xl w-full">
         <h2 className="text-[#1B8036] font-bold text-3xl text-center md:mb-10">
           Enquiry
@@ -59,23 +59,26 @@ export const Enquire = () => {
         {status && <p className="text-center text-green-600">{status}</p>}
         <div className="center ">
           <div className="my-5 max-w-[500px] w-full space-y-5 relative ">
-            <Image
+       <div id="image-qa">
+
+       <Image
               src={qa}
               alt="graph not found"
               className="absolute -top-5 -left-28  max-md:hidden block"
               width={100}
             />
+       </div>
 
+        
             <Image
               src={card}
               alt="Card not found"
               className="absolute -top-5 -right-28  max-md:hidden block"
               width={100}
             />
-
-            <div className="p-3 border border-[#b3faed]">
+            <div className="border border-[#b3faed] ">
               <input
-                className="placeholder:text-[#acaaaae3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none p-3 w-full"
                 type="text"
                 placeholder="Full Name"
                 name="firstName"
@@ -83,9 +86,9 @@ export const Enquire = () => {
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#b3faed]">
+            <div className="border border-[#b3faed]">
               <input
-                className="placeholder:text-[#acaaaae3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none p-3 w-full"
                 type="text"
                 placeholder="Email Address"
                 name="email"
@@ -93,9 +96,9 @@ export const Enquire = () => {
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#b3faed]">
+            <div className="border border-[#b3faed]">
               <input
-                className="placeholder:text-[#acaaaae3] outline-none"
+                className="placeholder:text-[#acaaaae3] outline-none p-3 w-full"
                 type="text"
                 placeholder="Mobile No"
                 name="phoneNo"
@@ -103,9 +106,9 @@ export const Enquire = () => {
                 onChange={handleData}
               />
             </div>
-            <div className="p-3 border border-[#b3faed]">
+            <div className="border border-[#b3faed]">
               <textarea
-                className="resize-none placeholder:text-[#acaaaae3] outline-none"
+                className="resize-none placeholder:text-[#acaaaae3] outline-none p-3 w-full"
                 placeholder="Message"
                 name="msg"
                 value={formData.msg}
@@ -114,7 +117,7 @@ export const Enquire = () => {
             </div>
             <div className="center pb-5">
               <button
-                className="rounded-md px-5 py-3  mt-5 bg-[#1B8036] text-white"
+                className="rounded-md px-5 py-3  mt-5 bg-[#1B8036] text-white cursor-pointer"
                 onClick={onSubmit}
                   disabled={isSubmitting}
               >
